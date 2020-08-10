@@ -1,0 +1,15 @@
+graph arbol_b {
+    "idNodo6" [label="nc"];
+    "idNodo7" [label="0"];
+    "idNodo5" [label="nw"];
+    "idNodo4" [label="nl"];
+    "idNodo1" [label="="];
+    "idNodo2" [label="="];
+    "idNodo3" [label="="];
+    "idNodo1" -- "idNodo4";
+    "idNodo1" -- "idNodo2";
+    "idNodo2" -- "idNodo5";
+    "idNodo2" -- "idNodo3";
+    "idNodo3" -- "idNodo7";
+    "idNodo3" -- "idNodo6";
+}

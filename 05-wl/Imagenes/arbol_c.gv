@@ -1,0 +1,31 @@
+graph arbol_c{
+    
+    "nodo1" [label="c" ];
+    "nodo2" [label="= ="];
+    "nodo3" [label="' '"];
+    "nodo4" [label="c"];
+    "nodo5" [label="= ="];
+    "nodo6" [label="'\\n'"];
+    "nodo7" [label="| |"];
+    "nodo8" [label="c"];
+    "nodo9" [label="= ="];
+    "nodo10" [label="'\\t'"];
+    "nodo11" [label="| |"];
+    "nodo12" [label="| |"];
+
+    "nodo2" -- "nodo1";
+    "nodo2" -- "nodo3";
+    "nodo7" -- "nodo2";
+
+    "nodo5" -- "nodo4";
+    "nodo5" -- "nodo6";
+    "nodo7" -- "nodo5";
+
+    "nodo9" -- "nodo8";
+    "nodo9" -- "nodo10";
+
+    "nodo12" -- "nodo7";
+    "nodo12" -- "nodo11";
+
+    "nodo11" -- "nodo9";    
+}

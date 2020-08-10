@@ -1,0 +1,8 @@
+digraph MaquinaDeEstado {
+
+ in -> out [label="{' ',\\n,\\t} / putchar('\\n');  "];
+ out -> in [label="  ascii -{' ',\\n,\\t} / putchar(c);"];
+ in -> in [label="  ascii -{' ',\\n,\\t} / putchar(c);"];
+ out -> out [label="  {' ',\\n,\\t} / putchar(&epsilon;)"];
+ 
+}
